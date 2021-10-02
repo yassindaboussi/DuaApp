@@ -13,7 +13,6 @@ Main App
 :---------------------:
 ![Main App - screenshots](screenshots/PictureMain.gif) 
 Dua
-|:------------------:
 ![Notifications - screenshots](screenshots/PictureNotif.gif)
 
 ## Features
