@@ -9,9 +9,10 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 </div>
 
 ## Screenshots
-Prayer times           | Settings
+Main App          | Main App
 :---------------------:|:------------------:
-![Main App - screenshots](screenshots/PictureMain.gif) | ![Notifications - screenshots](screenshots/PictureNotif.gif)
+![Main App - screenshots](screenshots/PictureMain.gif) |
+![Notifications - screenshots](screenshots/PictureNotif.gif)
 
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
