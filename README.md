@@ -12,8 +12,9 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 Main App          
 :---------------------:
 ![Main App - screenshots](screenshots/PictureMain.gif) 
-Dua
 ![Notifications - screenshots](screenshots/PictureNotif.gif)
+Dua (Notif)           |
+![Notifications - screenshoot](screenshots/PictureNotif.gif)
 
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
