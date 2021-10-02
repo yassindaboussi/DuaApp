@@ -9,9 +9,11 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 </div>
 
 ## Screenshots
-Main App          | Main App
-:---------------------:|:------------------:
-![Main App - screenshots](screenshots/PictureMain.gif) |
+Main App          
+:---------------------:
+![Main App - screenshots](screenshots/PictureMain.gif) 
+Main App
+|:------------------:
 ![Notifications - screenshots](screenshots/PictureNotif.gif)
 
 ## Features
