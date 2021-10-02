@@ -12,7 +12,7 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 Main App          
 :---------------------:
 ![Main App - screenshots](screenshots/PictureMain.gif) 
-Main App
+Dua
 |:------------------:
 ![Notifications - screenshots](screenshots/PictureNotif.gif)
 
