@@ -8,6 +8,11 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 - بعرض دعاء كل مدة زمنة محدد 💬 تقوم بتحديدها او تلقائيا كل 5 دقائق 
 </div>
 
+## Screenshots
+Prayer times           | Settings
+:---------------------:|:------------------:
+![Main App - screenshots](screenshots/PictureMain.gif) | ![Notifications - screenshots](screenshots/PictureNotif.gif)
+
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
 * [x] اضافة الوضع اليلي
