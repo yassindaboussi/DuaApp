@@ -9,11 +9,6 @@ Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
 </div>
 
 ## Screenshots
-Main App          
-:---------------------:
-![Main App - screenshots](screenshots/PictureMain.gif) 
-![Notifications - screenshots](screenshots/PictureNotif.gif)
-
 Main App           | Notif Dua
 :---------------------:|:------------------:
 ![Main App - screenshoot](screenshots/PictureMain.gif)  | ![Notifications Dua - screenshoot](screenshots/PictureNotif.gif)
