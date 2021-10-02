@@ -21,4 +21,4 @@ Main App           | POP-UP Dua
 * [ ] الاعدادات
 
 ## Contributing 💡
-If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
+If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.😊😇
