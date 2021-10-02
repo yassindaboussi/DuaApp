@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane id="AnchorPane" fx:id="stckDoua" prefHeight="427.0" prefWidth="539.0" styleClass="Applicationlkol" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="doua.DouaController">
+   <children>
+      <AnchorPane fx:id="rootDoua" prefHeight="429.0" prefWidth="539.0" styleClass="Applicationlkol" stylesheets="@Style.css">
+         <children>
+            <Pane fx:id="PaneLoutaniya" prefHeight="428.0" prefWidth="539.0" style="-fx-background-radius: 20px 20px 20px 20px;" styleClass="green" stylesheets="@Style.css">
+               <children>
+                  <Pane fx:id="PaneGrey" layoutX="-2.0" layoutY="-1.0" prefHeight="367.0" prefWidth="541.0" style="-fx-background-color: white;" stylesheets="@Style.css">
+                     <children>
+                        <Pane fx:id="PaneDayNow" layoutX="201.0" layoutY="14.0" prefHeight="54.0" prefWidth="230.0" style="-fx-background-color: white; -fx-background-radius: 15px 15px 30px 30px;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <Label layoutX="83.0" layoutY="11.0" text="اليوم الان : " textFill="#bfbfbf">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="day" layoutX="15.0" layoutY="9.0" lineSpacing="1.0" prefHeight="35.0" prefWidth="73.0" text="الخميس">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="169.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/calendrier.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PaneDouaReminder" layoutX="107.0" layoutY="82.0" prefHeight="274.0" prefWidth="325.0" style="-fx-background-color: white; -fx-background-radius: 1em;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <Label fx:id="labelTitreDouaReminder" layoutX="86.0" layoutY="11.0" text="معدل ظهور الأذكار">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Pane fx:id="PaneHigh" layoutX="65.0" layoutY="53.0" prefHeight="43.0" prefWidth="195.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 15px 15px 30px 30px;">
+                                 <children>
+                                    <JFXButton fx:id="highFrequency" focusTraversable="false" layoutX="23.0" layoutY="3.0" minWidth="76.0" onAction="#highFrequencyAction" prefHeight="37.0" prefWidth="153.0" styleClass="frequency-btn" text="عالي" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </JFXButton>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PaneMid" layoutX="65.0" layoutY="111.0" prefHeight="43.0" prefWidth="195.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 15px 15px 30px 30px;">
+                                 <children>
+                                    <JFXButton fx:id="midFrequency" focusTraversable="false" layoutX="21.0" layoutY="3.0" minWidth="76.0" onAction="#midFrequencyAction" prefHeight="37.0" prefWidth="153.0" styleClass="frequency-btn" text="متوسط" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </JFXButton>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="PaneLow" layoutX="65.0" layoutY="167.0" prefHeight="43.0" prefWidth="195.0" style="-fx-background-color: #EEEEEE; -fx-background-radius: 15px 15px 30px 30px;">
+                                 <children>
+                                    <JFXButton fx:id="lowFrequency" focusTraversable="false" layoutX="21.0" layoutY="3.0" minWidth="76.0" onAction="#lowFrequencyAction" prefHeight="37.0" prefWidth="153.0" styleClass="frequency-btn" text="منخفض" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </JFXButton>
+                                 </children>
+                              </Pane>
+                              <JFXButton focusTraversable="false" layoutX="89.0" layoutY="230.0" minWidth="76.0" onAction="#StartDoua" prefHeight="37.0" prefWidth="153.0" styleClass="Start-btn-selected" stylesheets="@Style.css" text="ابدء" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PaneSwitchMode" layoutX="443.0" layoutY="83.0" prefHeight="144.0" prefWidth="83.0" style="-fx-background-radius: 1em; -fx-background-color: white;" styleClass="Menu-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <Label layoutX="18.0" layoutY="10.0" text="الوضع" textFill="#bfbfbf">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fx:id="ModeDark" fitHeight="47.0" fitWidth="47.0" layoutX="20.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/night.png" />
+                                 </image>
+                              </ImageView>
+                              <JFXToggleButton fx:id="SwitchMode" ellipsisString="" focusTraversable="false" layoutX="8.0" layoutY="84.0" onAction="#SwitchModeClicked" prefHeight="60.0" prefWidth="67.0" styleClass="start-stop" stylesheets="@Style.css" text="᲼" />
+                              <ImageView fx:id="ModeWhite" fitHeight="47.0" fitWidth="47.0" layoutX="20.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                                 <image>
+                                    <Image url="@../img/sun.png" />
+                                 </image>
+                              </ImageView>
+                           </children></Pane>
+                        <Pane fx:id="PaneTimeNow" layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="180.0" style="-fx-background-color: white; -fx-background-radius: 15px 15px 30px 30px;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="113.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/clock.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="timeLabel" layoutX="23.0" layoutY="9.0" lineSpacing="1.0" prefHeight="35.0" prefWidth="87.0" text="00:00:00" textFill="#bfbfbf">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PaneExitMinimize" layoutX="443.0" layoutY="6.0" prefHeight="43.0" prefWidth="90.0" style="-fx-background-color: white; -fx-background-radius: 15px 15px 30px 30px;" styleClass="Menu-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="36.0" layoutX="47.0" layoutY="2.0" onMouseClicked="#CloseApp" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/Close.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="35.0" fitWidth="36.0" layoutX="9.0" layoutY="2.0" onMouseClicked="#MinimizeApp" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/minimize.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="PaneOpa3" layoutX="443.0" layoutY="237.0" onMouseClicked="#TasbihClicked" prefHeight="119.0" prefWidth="83.0" style="-fx-background-color: white;" styleClass="Menu-btn-selected" stylesheets="@Style.css" visible="false">
+                           <children>
+                              <ImageView fitHeight="119.0" fitWidth="83.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/prayer_beads.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="16.0" layoutY="8.0" text="تسبيح" textFill="#bfbfbf">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children></Pane>
+                        <Pane fx:id="btnSetting" layoutY="179.0" prefHeight="35.0" prefWidth="87.0" style="-fx-background-radius: 0px 60px 60px 0px; -fx-background-color: #C9D0D4;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <Label fx:id="settinglabel" layoutX="8.0" layoutY="4.0" prefHeight="21.0" prefWidth="67.0" text="الإعدادات" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="btnContactUs" layoutY="225.0" prefHeight="35.0" prefWidth="87.0" style="-fx-background-radius: 0px 60px 60px 0px; -fx-background-color: #C9D0D4;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                           <children>
+                              <Label fx:id="contactlabel" layoutX="4.0" layoutY="5.0" onMouseClicked="#ContactClicked" prefHeight="25.0" prefWidth="67.0" text="اتصل بنا " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Circle fill="WHITE" layoutX="34.0" layoutY="398.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="Menu-btn-selected" />
+                  <ImageView fitHeight="35.0" fitWidth="36.0" layoutX="17.0" layoutY="381.0" onMouseClicked="#AboutMeClicked" pickOnBounds="true" preserveRatio="true" styleClass="Menu-btn-selected">
+                     <image>
+                        <Image url="@../img/infoApp.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="208.0" layoutY="386.0" prefHeight="26.0" prefWidth="123.0" text="Dua App  V0.1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <AnchorPane fx:id="containerContactUs" layoutX="12.0" layoutY="65.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="516.0" styleClass="jfx-dialog-overlay-pane" stylesheets="@Style.css" visible="false">
+               <children>
+                  <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="480.0" onMouseClicked="#CloseContactUs" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Close.png" />
+                     </image>
+                  </ImageView>
+                  <JFXTextArea fx:id="txtMsg" focusColor="#405aa800" layoutX="8.0" layoutY="77.0" prefHeight="211.0" prefWidth="496.0" styleClass="text-areaWhiteMode" stylesheets="@Style.css" unFocusColor="#4d4d4d00" />
+                  <JFXButton layoutX="185.0" layoutY="295.0" onAction="#sendEmail" prefHeight="31.0" prefWidth="142.0" styleClass="Start-btn-selected" stylesheets="@Style.css" text="ارسال" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </JFXButton>
+                  <Pane layoutX="185.0" layoutY="31.0" prefHeight="42.0" prefWidth="142.0" style="-fx-background-radius: 1em; -fx-background-color: #EEEEEE;" stylesheets="@Style.css">
+                     <children>
+                        <JFXComboBox fx:id="ComboMailSubject" focusColor="#2d2e2e00" labelFloat="true" layoutX="19.0" layoutY="5.0" prefHeight="31.0" prefWidth="110.0" unFocusColor="TRANSPARENT" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="containerAboutMe" layoutX="22.0" layoutY="75.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="516.0" styleClass="jfx-dialog-overlay-pane" stylesheets="@Style.css" visible="false">
+               <children>
+                  <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="480.0" onMouseClicked="#CloseAboutMe" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Close.png" />
+                     </image>
+                  </ImageView>
+                  <MaterialDesignIconView fx:id="google" fill="#bfbfbf" glyphName="GOOGLE_PLUS" layoutX="303.0" layoutY="281.0" size="25" visible="false" />
+                  <MaterialDesignIconView fx:id="github" fill="#bfbfbf" glyphName="GITHUB_CIRCLE" layoutX="266.0" layoutY="281.0" size="25" visible="false" />
+                  <MaterialDesignIconView fx:id="facebook" fill="#bfbfbf" glyphName="FACEBOOK" layoutX="230.0" layoutY="281.0" size="25" visible="false" />
+                  <MaterialDesignIconView fx:id="youtube" fill="#bfbfbf" glyphName="YOUTUBE_PLAY" layoutX="195.0" layoutY="281.0" size="25" visible="false" />
+                  <ImageView fx:id="Yassin" blendMode="SRC_ATOP" cache="true" cacheHint="QUALITY" depthTest="DISABLE" fitHeight="43.0" fitWidth="215.0" layoutX="148.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/LogoYassin.png" />
+                     </image>
+                  </ImageView>
+                  <Separator fx:id="separator2" layoutX="158.0" layoutY="188.0" prefWidth="200.0" visible="false" />
+                  <Separator fx:id="separator1" layoutX="155.0" layoutY="152.0" prefWidth="200.0" visible="false" />
+                  <Text fx:id="developer" fill="#bfbfbf" layoutX="208.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by:" visible="false" wrappingWidth="94.74609375" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

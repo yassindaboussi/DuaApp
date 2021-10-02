@@ -1,0 +1,155 @@
+
+
+
+.Applicationlkol{
+    -fx-background-color:transparent;
+    -fx-background-radius: 3em;
+}
+
+.pageApplication{
+    -fx-background-color: linear-gradient(to right bottom, #00d2ff 0%, #3a47d5 100%);
+    
+    -fx-background-radius: 20px 20px 20px 20px;
+}
+
+.barymin{ /*Lymin*/
+    -fx-background-color:  linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    -fx-background-radius:20px 20px 0px 0px;
+}
+
+.circleID{
+
+-fx-fill:#bec8cd;
+
+}
+
+.circleID:hover{
+
+-fx-fill:blue;
+
+}
+
+.button{
+    -fx-background-color: linear-gradient(to right top, #FBAB7E 0%, #F7CE68 100%);
+    -fx-background-radius: 25;
+}
+
+.button:hover{
+/*        -fx-background-color:linear-gradient(to right top, #FFE53B 0%, #FF2525 74%);*/
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.frequency-btn-selected {
+    -fx-background-color: linear-gradient(to right top, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.frequency-btn-selected:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+
+.Start-btn-selected {
+   -fx-background-color: linear-gradient(to right top, #11998e 0%, #38ef7d 100%);
+}
+
+.Start-btn-selected:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.green{
+       -fx-background-color: linear-gradient(to right top, #11998e 0%, #38ef7d 100%);
+}
+
+
+.Menu-btn-selected {
+
+    -fx-background-color: white;
+    -fx-background-radius:1em;
+}
+
+.Menu-btn-selected:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-cell {
+    -fx-border-color: transparent; 
+}
+
+.table-view .column-header, 
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color: white;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 16;
+    -fx-text-fill: #005797;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-view .cell {
+    -fx-cell-size: 30;
+    -fx-text-fill: #000000;
+    -fx-font-size: 15;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-view .table-row-cell:selected{
+    -fx-background-color: #005797;
+} 
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+
+.jfx-dialog-overlay-paneWhite > StackPane {
+    -fx-background-radius: 10;
+    -fx-background-color: white;
+}
+
+.jfx-dialog-overlay-paneBlack > StackPane {
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(to top, #485461 0%, #28313b 74%);
+}
+
+
+
+.text-areaWhiteMode {
+    -fx-font-family: Consolas;
+    -fx-font-size: 24;
+    -fx-text-fill: linear-gradient(to right top, #11998e 0%, #38ef7d 100%);
+    -fx-display-caret:true;
+}
+
+.text-areaWhiteMode  .content {
+    -fx-background-color: #EEEEEE;
+}
+
+.text-areaWhiteMode  *.text {
+    -fx-text-alignment: center;
+}
+
+.text-areaDarkMode {
+    -fx-font-family: Consolas;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-display-caret:true;
+}
+
+.text-areaDarkMode  .content {
+    -fx-background-color:  linear-gradient(to bottom, #485461 0%, #28313b 74%);
+}
+
+.text-areaDarkMode  *.text {
+    -fx-text-alignment: center;
+}
+
+
