@@ -13,8 +13,10 @@ Main App
 :---------------------:
 ![Main App - screenshots](screenshots/PictureMain.gif) 
 ![Notifications - screenshots](screenshots/PictureNotif.gif)
-Dua (Notif)           |
-![Notifications - screenshoot](screenshots/PictureNotif.gif)
+
+Main App           | Notif Dua
+:---------------------:|:------------------:
+![Main App - screenshoot](screenshots/PictureMain.gif)  | ![Notifications Dua - screenshoot](screenshots/PictureNotif.gif)
 
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
