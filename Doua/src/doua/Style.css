@@ -153,3 +153,32 @@
 }
 
 
+.tab {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: linear-gradient(to bottom, #485461 0%, #28313b 74%);
+    -fx-border-color: grey;
+    -fx-border-width: 0px 0px 3px 0px;  
+}
+
+.tab:selected {
+    -fx-border-color: red;
+    -fx-border-width: 0px 0px 2.5px 0px;
+}
+
+.tab-label {
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+}
+
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-down-button {
+    -fx-padding: 0;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0 0 0 140;
+}

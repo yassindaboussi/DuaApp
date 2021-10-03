@@ -7,11 +7,14 @@
 <?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -131,7 +134,7 @@
                               </ImageView>
                            </children>
                         </Pane>
-                        <Pane fx:id="PaneOpa3" layoutX="443.0" layoutY="237.0" onMouseClicked="#TasbihClicked" prefHeight="119.0" prefWidth="83.0" style="-fx-background-color: white;" styleClass="Menu-btn-selected" stylesheets="@Style.css" visible="false">
+                        <Pane fx:id="PaneOpa3" layoutX="443.0" layoutY="237.0" onMouseClicked="#TasbihClicked" prefHeight="119.0" prefWidth="83.0" style="-fx-background-color: white;" styleClass="Menu-btn-selected" stylesheets="@Style.css">
                            <children>
                               <ImageView fitHeight="119.0" fitWidth="83.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -216,6 +219,172 @@
                   <Separator fx:id="separator2" layoutX="158.0" layoutY="188.0" prefWidth="200.0" visible="false" />
                   <Separator fx:id="separator1" layoutX="155.0" layoutY="152.0" prefWidth="200.0" visible="false" />
                   <Text fx:id="developer" fill="#bfbfbf" layoutX="208.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by:" visible="false" wrappingWidth="94.74609375" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="containerTasbih" layoutX="12.0" layoutY="65.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="516.0" styleClass="jfx-dialog-overlay-pane" stylesheets="@Style.css" visible="false">
+               <children>
+                  <TabPane fx:id="TabPaneRec" layoutX="1.0" layoutY="1.0" prefHeight="352.0" prefWidth="516.0" tabClosingPolicy="UNAVAILABLE">
+                     <tabs>
+                        <Tab text="تسبيح">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="531.0" prefWidth="974.0">
+                                 <children>
+                                    <VBox fx:id="vbox1" alignment="CENTER" layoutX="81.0" layoutY="9.0" prefHeight="21.0" prefWidth="408.0" style="-fx-background-color: #F7F7F7;">
+                                       <children>
+                                          <Label fx:id="textTeshbih1" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="الحمدلله" textAlignment="RIGHT" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="textDoua1" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="يكتب له ألف حسنة أو يحط عنه ألف خطيئة." textAlignment="RIGHT" textFill="#3bbc4c" wrapText="true" />
+                                       </children>
+                                    </VBox>
+                                    <Pane fx:id="PaneTasbih1" layoutX="7.0" layoutY="3.0" prefHeight="54.0" prefWidth="74.0" style="-fx-background-radius: 1em;;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                                       <children>
+                                          <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="28.0" layoutY="39.0" onMouseClicked="#imgCount1Clicked" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../img/-.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label fx:id="txtCountTasbih1" layoutX="1.0" layoutY="8.0" prefHeight="21.0" prefWidth="73.0" text="   100" textAlignment="RIGHT" textFill="WHITE">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <VBox fx:id="vbox2" alignment="CENTER" layoutX="81.0" layoutY="73.0" prefHeight="21.0" prefWidth="408.0" style="-fx-background-color: #F7F7F7;">
+                                       <children>
+                                          <Label fx:id="textTeshbih2" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="سُبْحَانَ اللهِ العَظِيمِ وَبِحَمْدِهِ" textAlignment="RIGHT" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="textDoua11" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="غرست له نخلة في الجنة (أى عدد)." textAlignment="RIGHT" textFill="#3bbc4c" wrapText="true" />
+                                       </children>
+                                    </VBox>
+                                    <Pane fx:id="PaneTasbih2" layoutX="7.0" layoutY="67.0" prefHeight="54.0" prefWidth="74.0" style="-fx-background-radius: 1em;;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                                       <children>
+                                          <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="28.0" layoutY="39.0" onMouseClicked="#imgCount2Clicked" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../img/-.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label fx:id="txtCountTasbih2" layoutX="1.0" layoutY="8.0" prefHeight="21.0" prefWidth="73.0" text="   100" textAlignment="RIGHT" textFill="WHITE">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <VBox fx:id="vbox3" alignment="CENTER" layoutX="81.0" layoutY="138.0" prefHeight="21.0" prefWidth="408.0" style="-fx-background-color: #F7F7F7;">
+                                       <children>
+                                          <Label fx:id="textTeshbih3" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلُّ شَيْءِ قَدِيرِ" textAlignment="RIGHT" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="13.8" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="textDoua111" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="يكتب له ألف حسنة أو يحط عنه ألف خطيئة." textAlignment="RIGHT" textFill="#3bbc4c" wrapText="true" />
+                                       </children>
+                                    </VBox>
+                                    <Pane fx:id="PaneTasbih3" layoutX="7.0" layoutY="131.0" prefHeight="54.0" prefWidth="74.0" style="-fx-background-radius: 1em;;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                                       <children>
+                                          <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="28.0" layoutY="39.0" onMouseClicked="#imgCount3Clicked" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../img/-.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label fx:id="txtCountTasbih3" layoutX="1.0" layoutY="8.0" prefHeight="21.0" prefWidth="73.0" text="   100" textAlignment="RIGHT" textFill="WHITE">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <VBox fx:id="vbox4" alignment="CENTER" layoutX="81.0" layoutY="199.0" prefHeight="21.0" prefWidth="408.0" style="-fx-background-color: #F7F7F7;">
+                                       <children>
+                                          <Label fx:id="textTeshbih4" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="الْلَّهُم صَلِّ وَسَلِم وَبَارِك عَلَى سَيِّدِنَا مُحَمَّد" textAlignment="RIGHT" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="textDoua1111" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="من صلى على حين يصبح وحين يمسى ادركته شفاعتى يوم القيامة." textAlignment="RIGHT" textFill="#3bbc4c" wrapText="true" />
+                                       </children>
+                                    </VBox>
+                                    <Pane fx:id="PaneTasbih4" layoutX="7.0" layoutY="193.0" prefHeight="54.0" prefWidth="74.0" style="-fx-background-radius: 1em;;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                                       <children>
+                                          <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="28.0" layoutY="39.0" onMouseClicked="#imgCount4Clicked" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../img/-.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label fx:id="txtCountTasbih4" layoutX="1.0" layoutY="8.0" prefHeight="21.0" prefWidth="73.0" text="   100" textAlignment="RIGHT" textFill="WHITE">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <VBox fx:id="vbox5" alignment="CENTER" layoutX="82.0" layoutY="259.0" prefHeight="21.0" prefWidth="408.0" style="-fx-background-color: #F7F7F7;">
+                                       <children>
+                                          <Label fx:id="textTeshbih5" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="الْلَّهُ أَكْبَرُ" textAlignment="RIGHT" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="textDoua11111" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" maxWidth="414.0" prefHeight="21.0" prefWidth="414.0" styleClass="message" text="من قال الله أكبر كتبت له عشرون حسنة وحطت عنه عشرون سيئة. " textAlignment="RIGHT" textFill="#3bbc4c" wrapText="true" />
+                                       </children>
+                                    </VBox>
+                                    <Pane fx:id="PaneTasbih5" layoutX="7.0" layoutY="253.0" prefHeight="54.0" prefWidth="74.0" style="-fx-background-radius: 1em;;" styleClass="Start-btn-selected" stylesheets="@Style.css">
+                                       <children>
+                                          <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="28.0" layoutY="39.0" onMouseClicked="#imgCount5Clicked" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../img/-.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label fx:id="txtCountTasbih5" layoutX="1.0" layoutY="8.0" prefHeight="21.0" prefWidth="73.0" text="   100" textAlignment="RIGHT" textFill="WHITE">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="489.0" layoutY="17.0" onMouseClicked="#CopyTasbih1" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/copy.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="489.0" layoutY="81.0" onMouseClicked="#CopyTasbih2" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/copy.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="489.0" layoutY="145.0" onMouseClicked="#CopyTasbih3" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/copy.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="490.0" layoutY="207.0" onMouseClicked="#CopyTasbih4" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/copy.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="490.0" layoutY="269.0" onMouseClicked="#CopyTasbih5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../img/copy.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </TabPane>
+                  <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="487.0" layoutY="-3.0" onMouseClicked="#CloseTasbih" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Close.png" />
+                     </image>
+                  </ImageView>
                </children>
             </AnchorPane>
          </children>
