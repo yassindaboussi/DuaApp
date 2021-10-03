@@ -48,7 +48,7 @@ public class NotificationFXController implements Initializable {
             //notificationVBox.setStyle("-fx-background-color:  linear-gradient(to bottom, #485461 0%, #28313b 60%);-fx-background-radius:  15px 15px 30px 30px;");
             this.textDoua.setTextFill(Color.WHITE);
         } else {
-            notificationBox.setStyle(RandomGradient);
+            notificationBox.setStyle(RandomGradient+"-fx-background-radius: 20px 20px 20px 20px;");
             // notificationVBox.setStyle("-fx-background-color:  White;-fx-background-radius:  15px 15px 30px 30px;");
             this.textDoua.setTextFill(Color.WHITE);
         }
