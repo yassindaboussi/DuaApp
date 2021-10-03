@@ -1,6 +1,6 @@
 <h1 align="center"> Dua App 🤲 برنامج دعاء </h1>
 
-Desktop Application 💻 for Showing Azkar 🤲 And Tasbih 📿 . <br />
+Desktop Application 💻 for Showing Azkar & Dua 🤲 And Tasbih 📿 . <br />
 
 <div align="right" dir="rtl">
 برنامج لسطح المكتب 💻 يقوم:
@@ -20,5 +20,7 @@ Main App           | POP-UP Dua
 * [ ] التسبيح
 * [ ] الاعدادات
 
+## Inspired From
+-  [Azkar-App Desktop application](https://github.com/AbdelrahmanBayoumi/Azkar-App)  for Calculating Muslim prayer times, Morning and Nights Azkar with notification .
 ## Contributing 💡
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.😊😇
