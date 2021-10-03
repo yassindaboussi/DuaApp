@@ -7,6 +7,7 @@ package doua;
 
 import service.Notification;
 import animatefx.animation.FadeOut;
+import animatefx.animation.Wobble;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXDialog;
@@ -787,6 +788,8 @@ public class DouaController implements Initializable {
     private void imgCount1Clicked(MouseEvent event) {
         String RandomGradient = Notification.RandomGradient();
         countTasbih1--;
+        Animations.Wobble(txtCountTasbih1);
+
         txtCountTasbih1.setText(String.valueOf(countTasbih1));
         txtCountTasbih1.setAlignment(Pos.CENTER); //center Text
         PaneTasbih1.setStyle(RandomGradient);
@@ -801,9 +804,11 @@ public class DouaController implements Initializable {
     private void imgCount2Clicked(MouseEvent event) {
         String RandomGradient = Notification.RandomGradient();
         countTasbih2--;
+        Animations.Roll(txtCountTasbih2);
+
         txtCountTasbih2.setText(String.valueOf(countTasbih2));
         txtCountTasbih2.setAlignment(Pos.CENTER); //center Text
-        
+
         PaneTasbih2.setStyle(RandomGradient);
         if (String.valueOf(countTasbih2).equals("1")) {
             countTasbih2 = 100;
@@ -815,9 +820,11 @@ public class DouaController implements Initializable {
     private void imgCount3Clicked(MouseEvent event) {
         String RandomGradient = Notification.RandomGradient();
         countTasbih3--;
+        Animations.Swing(txtCountTasbih3);
+
         txtCountTasbih3.setText(String.valueOf(countTasbih3));
         txtCountTasbih3.setAlignment(Pos.CENTER); //center Text
-        
+
         PaneTasbih3.setStyle(RandomGradient);
         if (String.valueOf(countTasbih3).equals("1")) {
             countTasbih3 = 100;
@@ -829,9 +836,11 @@ public class DouaController implements Initializable {
     private void imgCount4Clicked(MouseEvent event) {
         String RandomGradient = Notification.RandomGradient();
         countTasbih4--;
+        Animations.fadeInUp(txtCountTasbih4);
+
         txtCountTasbih4.setText(String.valueOf(countTasbih4));
         txtCountTasbih4.setAlignment(Pos.CENTER); //center Text
-        
+
         PaneTasbih4.setStyle(RandomGradient);
         if (String.valueOf(countTasbih4).equals("1")) {
             countTasbih4 = 100;
@@ -843,9 +852,11 @@ public class DouaController implements Initializable {
     private void imgCount5Clicked(MouseEvent event) {
         String RandomGradient = Notification.RandomGradient();
         countTasbih5--;
+        Animations.Wobble(txtCountTasbih5);
+
         txtCountTasbih5.setText(String.valueOf(countTasbih5));
         txtCountTasbih5.setAlignment(Pos.CENTER); //center Text
-        
+
         PaneTasbih5.setStyle(RandomGradient);
         if (String.valueOf(countTasbih5).equals("1")) {
             countTasbih5 = 100;
