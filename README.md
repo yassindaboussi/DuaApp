@@ -21,7 +21,6 @@ Main App           | POP-UP Dua
 * [ ] الاعدادات
 
 ## Inspired From
--  [Prayer Times Desktop application](https://github.com/AbdelrahmanBayoumi/Azkar-App)  for Calculating Muslim prayer times, Morning and Nights Azkar with notification .
--  
+-  [Azkar-App Desktop application](https://github.com/AbdelrahmanBayoumi/Azkar-App)  for Calculating Muslim prayer times, Morning and Nights Azkar with notification .
 ## Contributing 💡
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.😊😇
