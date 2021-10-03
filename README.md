@@ -11,7 +11,9 @@ Desktop Application 💻 for Showing Azkar & Dua 🤲 And Tasbih 📿 . <br />
 ## Screenshots
 Main App           | POP-UP Dua
 :---------------------:|:------------------:
-![Main App - screenshoot](screenshots/PictureMain.gif)  | ![Notifications Dua - screenshoot](screenshots/PictureNotif.gif)
+![Main App - screenshoot](screenshots/Main.gif)  | ![Notifications Dua - screenshoot](screenshots/Notif.gif)
+Tasbih            |
+![Main App - screenshoot](screenshots/Tasbih.gif)  |
 
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
