@@ -18,6 +18,11 @@ Tasbih            |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+# Download
+Download the [Jar file](https://github.com/yassindaboussi/Dua-App/releases)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Features
 * [x] تحديد معدل ضهور الدعاء  
 * [x] اضافة الوضع اليلي
