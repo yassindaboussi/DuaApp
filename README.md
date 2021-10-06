@@ -26,9 +26,8 @@ Tasbih            |
 
 ## Ressources & Libraries 📚
 
-| Library | | ------ |
-
-|icon | | ------ |  [flaticon.com](flaticon.com) | [icones8.fr](icones8.fr) |
+| Library | icon |
+| ------ | ------ |
 | JFoenix | [flaticon.com](flaticon.com) |
 | JavaFx | [icones8.fr](icones8.fr) |
 | AnimateFX | 
