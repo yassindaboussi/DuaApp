@@ -12,9 +12,9 @@ Desktop Application 💻 for Showing Azkar & Dua 🤲 And Tasbih 📿 . <br />
 ## Screenshots
 Main App           | POP-UP Dua
 :---------------------:|:------------------:
-![Main App - screenshot](screenshots/MainV1.gif)  | ![Notifications Dua - screenshot](screenshots/NotifV1.gif)
+![Main App - screenshoot](screenshots/MainV1.gif)  | ![Notifications Dua - screenshoot](screenshots/NotifV1.gif)
 Tasbih            |
-![Main App - screenshot](screenshots/TasbihV1.gif)  |
+![Main App - screenshoot](screenshots/TasbihV1.gif)  |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -37,14 +37,12 @@ Download the [Jar file](https://github.com/yassindaboussi/Dua-App/releases)
 | Library | icon |
 | ------ | ------ |
 | JFoenix | [flaticon.com](flaticon.com) |
-| JavaFx | [icones8.fr](icones8.fr) |
-| AnimateFX | 
+| AnimateFX | [icones8.fr](icones8.fr) | 
 | controlsfx | 
 | fontawesomefx | 
 | httpclient | 
 | httpcore | 
 | javafx.mail | 
-| jfoenix | 
 | json-simple | 
 | org.apache.commons.io | 
 | TrayTester | 
