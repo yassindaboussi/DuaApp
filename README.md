@@ -19,7 +19,7 @@ Tasbih            |
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Download
-Download the [Jar file](https://github.com/yassindaboussi/Dua-App/releases)
+Download the [Jar file (Problem Sound)](https://github.com/yassindaboussi/Dua-App/releases)  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
